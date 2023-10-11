@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+
+body{
+font-family: 'Kolker+Brush', sans-serif;
+ background-image: url("실습 배경 이미지.jpeg");   
+ background-size: cover;
+ background-position: center center;
+ background-repeat: no-repeat;
+ min-height: 100vh;
+ display : flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.counttimer{
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+
+}
+h1{
+    font-size:  70px;
+    color: rgb(241, 149, 10);
+    margin-bottom: 200px;
+}
+.count{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.big{
+    margin-top: 200px;
+    font-size: 70px;
+    font-weight: 300;
+}
+.daynumber{
+    font-weight: bold;
+}
+.secondnumber{
+    margin-top: 250px;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
