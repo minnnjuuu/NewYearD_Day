@@ -3,7 +3,7 @@ const hour = document.querySelector(".hournumber")
 const min = document.querySelector(".minnumber")
 const second = document.querySelector(".secondnumber")
 console.log(day)
-const newYear = "1 Jan 2024"
+const newYear = "1 Jan 2025"
 function Countdown(){
     const newYearDate = new Date(newYear)
     const currentDate = new Date()   
